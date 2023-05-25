@@ -1,8 +1,53 @@
-body {
+/* shared */
+.background-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.background {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.body-contents {
+    position: relative;
+}
+
+body {    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:rgb(8, 52, 6);
+}
+
+
+.recipe-list {
     text-align: center;
 }
 
-ul {
-    text-align:center +2;
-    list-style-position: inside;
+.recipe-list > ul,ol {
+    display: inline-block;
 }
+
+li {
+    text-align:left;
+}
+
+/* biscoff-cheesecake only */
+
+.biscoff-pic {
+    height: auto;
+    width: 350px;
+}
+
+
+
+
+
+
